@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(246, 245, 245);
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+main{
+    padding: 5%;
+}
+
+#form button{
+    background-color: #0044AA;
+    width: 100%;
+    color: #fff;
+    padding: 3%;
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+
+#form button:hover{
+    background-color: #0022AA;
+}
+
+header input{
+    padding: 0px; 
+    margin: 0px;
+}
+
+#reset{
+    background-color:  #AA0044 !important;
+}
+
+#reset:hover{
+    background-color:  #CC1155 !important;
+    
+}
+
+.opcionTitulo{
+    display: block;
+    font-weight: bolder;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex input{
+    width: 10%;
+}
+
+.flex_categoria{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.flex_categoria input{
+    width: 16%;
+}
+
+.flex_categoria label{
+    width: 70%;
+}
+/*
+form{
+    width: 36%;
+    margin: auto
+}
+label{
+    display: block;
+}
+
+input{
+    background-color: rgba(0,0,0, 0);
+    border: 0px;
+    border-bottom: 1px solid rgb(131, 131, 131);
+    width: 100%;
+    display: block;
+    padding: 1px;
+    margin: 1%;
+    height: 30px;
+    font-size:  16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+input:focus{
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.opciones label{ 
+    display: inline-block;  
+
+}
+.opciones input{
+    width: 3%; 
+    display: inline-block;  
+}
+
+.opcionTitulo{
+    display: block !important;
+}
+
+*/
+

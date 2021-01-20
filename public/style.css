@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css');
+
+*{
+    box-sizing: border-box
+}
+
+body{
+    background-color:#d6d6d6 ;
+    font-size:  14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+}
+
+
+
+img{
+    width: 100%;
+}
+header{
+    background-color: #EAC926;
+    padding: 2%; 
+}
+
+nav ul{
+    list-style: none;
+    width: 41%;
+    font-size: 10px;
+    padding: 0px;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+.card{
+    margin: 10px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    transition-duration: 1s;
+}
+
+.card img{
+    border-bottom: solid rgb(187, 187, 187) 1px;
+    padding-bottom:10px ;
+}
+
+.titulares{
+    font-size: 24px;
+    margin:20px;
+    width: 90%;
+}
+
+.precios{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.descuentos, .descripciones{
+    font-size: 16px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.descuentos{
+    color:#39b54a;
+    background-color:#ddf5e0 ;
+    border-radius: 6px;
+    width: 25%;
+    padding: 1%;
+}
+
+.fa-truck{
+    color: #39b54a;
+    font-size: 20px;
+}
+
+
+#logo{
+    width: 50%;
+    margin-right: 3%;
+}
+
+header form{
+    background-color: white;
+    border-radius: 17px;
+    width: 45%;
+    height: 37px;
+
+}
+#busqueda{
+    width: 55%;
+    border: 0px;
+    margin: 10px;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0);
+    color: gray;
+    cursor:pointer;
+}
+
+nav{
+    display: none;
+}
+
+#menu{
+    font-size: 25px;
+    padding: 4%;
+    background-color: #03264C;
+    text-align: center;
+    margin: 7px auto;
+    display: block;
+    border-radius: 5px;
+}
+
+#menu:hover{
+    background-color: #204d7d;
+    color: #fff;
+}
+
+input:focus, button:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+header .texto p{
+    display: inline-flex;
+    font-size: 14px;
+}
+
+
+
+footer i{
+    font-size: 20px;
+    color: #03264C;;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 5% ;
+    background-color:#fff ;
+    border-bottom:  0px 0px 10px rgb(100, 100, 100) solid 1px;
+}
+
+footer article{
+     margin: 20px;
+}
+
+footer article p, footer article h3{
+    margin: 1px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card i{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 18px;
+}
+
+.precios, .descuentos{
+    display: inline-block;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.parteA, header form{
+    display: flex;
+    flex-wrap: wrap;
+}

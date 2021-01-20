@@ -1,0 +1,75 @@
+
+/*TABLETS*/
+@media (min-width: 768px){
+    #menu{
+        display: none;
+    }  
+
+    #logo{
+        width:20%;
+    }
+
+    header form{
+        width: 37%;
+    }
+
+    .parteA{
+        justify-content: space-between;
+    }
+
+    nav, nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card{
+        width: 47%;
+    }
+
+    section{
+        flex-direction: row;
+    }
+
+    section div{
+        width: 100%;
+    }
+
+    
+    #form button{
+        width: 25%;
+        padding: 1%;
+        display: block;
+        margin: auto;
+    }
+
+    
+    .flex{
+        justify-content: flex-start;
+    }
+}
+
+
+/*DESKTOP*/
+@media (min-width: 1024px){
+    nav ul{
+        font-size: 17px;
+    }
+
+    #busqueda{
+        width: 75%;
+    }
+
+    .card{
+        width: 23%;
+    }
+
+    header{
+        padding: 1% 2%;
+    }
+
+    form{
+        margin: 20px;
+    }
+
+}
